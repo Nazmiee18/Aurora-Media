@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#wave {
+  margin-top: -300px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
+}
+
+hr {
+  margin: 0px 0px;
+  height: 3px;
+  opacity: 0.5;
+}
